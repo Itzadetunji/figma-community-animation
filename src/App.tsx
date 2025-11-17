@@ -49,7 +49,7 @@ export const App = () => {
 				<p className="text-center text-2xl font-semibold text-white relative">
 					Discover community-made{" "}
 					<span
-						className={`transition-colors duration-200 ${
+						className={`transition-colors duration-200 hover:cursor-default ${
 							currentHover === "libraries" ? "text-sky-300" : "text-[#FFFFFFB3]"
 						}`}
 						onMouseEnter={() => handleMouseEnter("libraries")}
@@ -59,7 +59,7 @@ export const App = () => {
 					</span>
 					, <br />
 					<span
-						className={`transition-colors duration-200 ${
+						className={`transition-colors duration-200 hover:cursor-default ${
 							currentHover === "plugins" ? "text-sky-300" : "text-[#FFFFFFB3]"
 						}`}
 						onMouseEnter={() => handleMouseEnter("plugins")}
@@ -69,7 +69,7 @@ export const App = () => {
 					</span>
 					,{" "}
 					<span
-						className={`transition-colors duration-200 ${
+						className={`transition-colors duration-200 hover:cursor-default ${
 							currentHover === "icons" ? "text-sky-300" : "text-[#FFFFFFB3]"
 						}`}
 						onMouseEnter={() => handleMouseEnter("icons")}

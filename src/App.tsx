@@ -126,7 +126,7 @@ const LibrariesIcons = (props: { currentHover: HoverType }) => {
 				scale: 1,
 				opacity: 1,
 				ease: "elastic.inOut",
-				duration: 0.4,
+				duration: 0.6,
 			})
 			.to(
 				"#l-icon-2",
@@ -136,7 +136,7 @@ const LibrariesIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -148,7 +148,7 @@ const LibrariesIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -160,7 +160,7 @@ const LibrariesIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -172,7 +172,7 @@ const LibrariesIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -184,7 +184,7 @@ const LibrariesIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			);
@@ -281,7 +281,7 @@ const PluginsIcons = (props: { currentHover: HoverType }) => {
 				scale: 1,
 				opacity: 1,
 				ease: "elastic.inOut",
-				duration: 0.4,
+				duration: 0.6,
 			})
 			.to(
 				"#p-icon-2",
@@ -291,7 +291,7 @@ const PluginsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -303,7 +303,7 @@ const PluginsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -315,7 +315,7 @@ const PluginsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -327,7 +327,7 @@ const PluginsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -339,7 +339,7 @@ const PluginsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			);
@@ -440,7 +440,7 @@ const SetsIcons = (props: { currentHover: HoverType }) => {
 				scale: 1,
 				opacity: 1,
 				ease: "elastic.inOut",
-				duration: 0.4,
+				duration: 0.6,
 			})
 			.to(
 				"#s-icon-2",
@@ -450,7 +450,7 @@ const SetsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -462,7 +462,7 @@ const SetsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -474,7 +474,7 @@ const SetsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -486,7 +486,7 @@ const SetsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -498,7 +498,7 @@ const SetsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -510,7 +510,7 @@ const SetsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			)
@@ -522,7 +522,7 @@ const SetsIcons = (props: { currentHover: HoverType }) => {
 					scale: 1,
 					opacity: 1,
 					ease: "elastic.inOut",
-					duration: 0.4,
+					duration: 0.6,
 				},
 				0
 			);

@@ -11,7 +11,7 @@ export const App = () => {
 	console.log(currentHover);
 
 	const [isUserHovering, setIsUserHovering] = useState(false);
-	const intervalRef = useRef<null>(null);
+	const intervalRef = useRef<number | null>(null);
 
 	useEffect(() => {
 		const hoverOptions: HoverType[] = ["libraries", "plugins", "icons"];
@@ -29,7 +29,7 @@ export const App = () => {
 				clearInterval(intervalRef.current);
 			}
 		};
-	}, [isUserHovering]);
+	}, [isUserHovering, currentHover]);
 
 	const handleMouseEnter = (hover: HoverType) => {
 		setIsUserHovering(true);
@@ -199,7 +199,7 @@ const LibrariesIcons = (props: { currentHover: HoverType }) => {
 			if (props.currentHover === "libraries") {
 				timelineRef.current.timeScale(1).play();
 			} else {
-				timelineRef.current.timeScale(1).reverse();
+				timelineRef.current.timeScale(0.875).reverse();
 			}
 		}
 	}, [props.currentHover]);
@@ -354,7 +354,7 @@ const PluginsIcons = (props: { currentHover: HoverType }) => {
 			if (props.currentHover === "plugins") {
 				timelineRef.current.timeScale(1).play();
 			} else {
-				timelineRef.current.timeScale(1).reverse();
+				timelineRef.current.timeScale(0.875).reverse();
 			}
 		}
 	}, [props.currentHover]);
@@ -537,7 +537,7 @@ const SetsIcons = (props: { currentHover: HoverType }) => {
 			if (props.currentHover === "icons") {
 				timelineRef.current.timeScale(1).play();
 			} else {
-				timelineRef.current.timeScale(1).reverse();
+				timelineRef.current.timeScale(0.875).reverse();
 			}
 		}
 	}, [props.currentHover]);
